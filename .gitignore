@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+
+# Environment
+.env
+venv/
+*.env
+*.venv
+
+# Build
+build/
+dist/
+*.wheel
+*.egg-info/
+pip-wheel-metadata/
+
+# Logs and debugging
+*.log
+*.sqlite3
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test outputs
+.pytest_cache/
+.cache/
+.tox/
+
+# Documentation build files
+docs/_build/
