@@ -1,4 +1,4 @@
-from phishing_detection.detector import PhishingDetector
+from phishing_detection_py.detector import PhishingDetector
 
 detector = PhishingDetector("url")
 url = "http://example.com"

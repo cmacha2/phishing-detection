@@ -1,5 +1,5 @@
 import unittest
-from phishing_detection.model_registry import ModelRegistry
+from phishing_detection_py.model_registry import ModelRegistry
 
 class TestModelRegistry(unittest.TestCase):
     def setUp(self):

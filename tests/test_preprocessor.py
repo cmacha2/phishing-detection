@@ -1,5 +1,5 @@
 import unittest
-from phishing_detection.preprocessor import Preprocessor
+from phishing_detection_py.preprocessor import Preprocessor
 
 class TestPreprocessor(unittest.TestCase):
     def test_clean_text(self):

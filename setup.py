@@ -26,7 +26,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "phishing-detection=phishing_detection.cli:main",
+            "phishing-detection-py=phishing_detection_py.cli:main",
         ],
     },
 )

@@ -1,5 +1,5 @@
 import unittest
-from phishing_detection.utils import load_config
+from phishing_detection_py.utils import load_config
 from unittest.mock import mock_open, patch
 
 class TestUtils(unittest.TestCase):
@@ -10,7 +10,7 @@ class TestUtils(unittest.TestCase):
           email: "cybersectony/phishing-email-detection-distilbert_v2.4.1"
         """
         with patch("builtins.open", mock_open(read_data=mock_yaml)):
-            config = load_config("phishing_detection/config.yaml")
+            config = load_config("phishing_detection_py/config.yaml")
             self.assertIn("models", config)
             self.assertIn("url", config["models"])
             self.assertIn("email", config["models"])

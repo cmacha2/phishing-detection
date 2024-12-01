@@ -1,5 +1,5 @@
 import argparse
-from phishing_detection.detector import PhishingDetector
+from phishing_detection_py.detector import PhishingDetector
 
 def main():
     parser = argparse.ArgumentParser(description="Phishing Detection CLI")

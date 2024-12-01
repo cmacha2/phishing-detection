@@ -1,5 +1,5 @@
 import unittest
-from phishing_detection.detector import PhishingDetector
+from phishing_detection_py.detector import PhishingDetector
 
 class TestPhishingDetector(unittest.TestCase):
     def setUp(self):

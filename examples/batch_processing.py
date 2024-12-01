@@ -1,4 +1,4 @@
-from phishing_detection.batch_processor import BatchProcessor
+from phishing_detection_py.batch_processor import BatchProcessor
 
 batch_processor = BatchProcessor("url")
 urls = [
