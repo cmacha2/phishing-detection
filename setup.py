@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="phishing-detection",
+    name="phishing-detection-py",
     version="0.1.0",
     description="A library for phishing detection using Hugging Face models.",
-    author="Your Name",
-    author_email="your.email@example.com",
-    url="https://github.com/your-repo/phishing-detection",
+    author="cmacha2",
+    author_email="cristiancmg127@gmail.com",
+    url="https://github.com/cmacha2/phishing-detection-py",
     license="Apache 2.0",
     packages=find_packages(),
     install_requires=[

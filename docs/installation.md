@@ -12,17 +12,17 @@ Follow these steps to install the Phishing Detection Framework:
 
 ### From PyPI
 ```bash
-pip install phishing-detection
+pip install phishing-detection-py
 ```
 
 ### From Source
 1. Clone the repository:
     ```bash
-    git clone https://github.com/cmacha2/phishing-detection.git
+    git clone https://github.com/cmacha2/phishing-detection-py.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd phishing-detection
+    cd phishing-detection-py
     ```
 3. Install the library:
     ```bash

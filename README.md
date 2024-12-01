@@ -1,6 +1,4 @@
-# README.md
 
-```
 # Phishing Detection Framework
 
 ## Overview
@@ -9,8 +7,8 @@ The Phishing Detection Framework provides an easy-to-use Python library for dete
 ### Key Features
 - Supports both URL and email phishing detection.
 - Uses pre-trained models for high performance:
-  - `bert-finetuned-phishing`
-  - `phishing-email-detection-distilbert_v2.4.1`
+  - [`bert-finetuned-phishing`](https://huggingface.co/ealvaradob/bert-finetuned-phishing)
+  - [`phishing-email-detection-distilbert_v2.4.1`](https://huggingface.co/cybersectony/phishing-email-detection-distilbert_v2.4.1)
 - Batch processing for multiple inputs.
 - Flexible API for customization and integration.
 - Open-source and built for developers.
