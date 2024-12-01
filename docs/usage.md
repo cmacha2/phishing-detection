@@ -5,7 +5,7 @@
 
 ### Example:
 ```python
-from phishing_detection import PhishingDetector
+from phishing_detection_py import PhishingDetector
 
 detector = PhishingDetector(model_type="url")
 result = detector.predict("http://example-phishing-site.com")
@@ -18,7 +18,7 @@ print(result)
 
 ### Example:
 ```python
-from phishing_detection import PhishingDetector
+from phishing_detection_py import PhishingDetector
 
 detector = PhishingDetector(model_type="email")
 result = detector.predict("Urgent: Your account is locked. Click here to unlock it.")
@@ -31,7 +31,7 @@ print(result)
 
 ### Example:
 ```python
-from phishing_detection.batch_processor import BatchProcessor
+from phishing_detection_py.batch_processor import BatchProcessor
 
 inputs = ["http://phishing-url.com", "https://safe-url.org"]
 batch_processor = BatchProcessor(model_type="url")
@@ -44,7 +44,7 @@ print(results)
 ## Advanced Usage
 ### Custom Configurations
 ```python
-from phishing_detection.utils import load_config
+from phishing_detection_py.utils import load_config
 
 config = load_config("path/to/config.yaml")
 print(config)
