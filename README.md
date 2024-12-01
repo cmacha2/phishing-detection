@@ -24,7 +24,7 @@ Refer to the [Usage Documentation](docs/usage.md) for examples and instructions 
 
 ### Quick Start Example
 ```python
-from phishing_detection import PhishingDetector
+from phishing_detection_py import PhishingDetector
 
 detector = PhishingDetector(model_type="url")
 result = detector.predict("http://example-phishing-site.com")

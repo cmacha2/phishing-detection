@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="phishing-detection-py",
-    version="0.1.0",
+    version="0.1.5",
     description="A library for phishing detection using Hugging Face models.",
     author="cmacha2",
     author_email="cristiancmg127@gmail.com",
